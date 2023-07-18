@@ -1,10 +1,10 @@
 :root {
-  --primary-background-color: #F9F7FE;
+  --primary-background-color: #f9f7fe;
   --primary-paragraph-color: #272142;
-  --primary-button-color: #6C63FF;
-  --secondary-button-color: #885DF1;
-  --heading-font-family: 'Playfair Display', serif;
-  --default-font-family: 'Poppins', sans-serif;
+  --primary-button-color: #6c63ff;
+  --secondary-button-color: #885df1;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -12,7 +12,12 @@ body {
   font-family: var(--default-font-family);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -48,30 +53,64 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
 }
 
-.yogurt-description h2 {
+.project-description h2 {
   font-size: 64px;
   font-weight: bold;
 }
 
-.yogurt-description p {
+.project-description p {
   font-size: 16px;
   opacity: 0.7;
   color: var(--primary-paragraph-color);
 }
 
-.yogurt-description a {
+.project-description a {
   border-color: var(--secondary-button-color);
   padding: 18px 25px;
   color: var(--secondary-button-color);
 }
 
-.yogurt-description a:hover {
+.project-description a:hover {
   border-color: var(--secondary-button-color);
   background-color: var(--secondary-button-color);
 }
 
 @media (max-width: 992px) {
-  .yogurt-description {
+  .hero {
+    padding: 135px 20px;
+  }
+
+  .hero p {
+    font-size: 24px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .hero h2 {
+    font-size: 16px;
+    line-height: 2;
+  }
+
+  .hero a {
+    padding: 10px 24px;
+  }
+
+  .project-description {
     text-align: center;
+    margin: 48px;
+  }
+
+  .project-description h2 {
+    font-size: 40px;
+  }
+
+  .project-description p {
+    line-height: 2;
+  }
+
+  .project-description a {
+    padding: 10px 24px;
   }
 }
