@@ -83,8 +83,7 @@ h6 {
 .work-inquiry {
   background-color: var(--primary-background-color);
   border-radius: 20px;
-  border-bottom: 2px #fff solid;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .work-inquiry p {
