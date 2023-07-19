@@ -1,0 +1,95 @@
+:root {
+  --primary-background-color: #f9f7fe;
+  --primary-paragraph-color: #272142;
+  --primary-button-color: #6c63ff;
+  --secondary-button-color: #885df1;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h1 {
+  margin: 120px 0 0;
+  font-size: 64px;
+}
+
+.project-content img {
+  border-radius: 20px;
+}
+
+.project-content h4 {
+  font-family: var(--default-font-family);
+}
+
+.project-content p {
+  color: var(--primary-paragraph-color);
+  opacity: 0.7;
+}
+
+.work-inquiry {
+  background-color: var(--primary-background-color);
+  border-radius: 20px;
+  margin: 120px 20px 20px;
+}
+
+.work-inquiry p {
+  font-size: 16px;
+  opacity: 0.7;
+  color: var(--primary-paragraph-color);
+}
+
+.work-inquiry a {
+  border-radius: 4px;
+  background-color: var(--primary-button-color);
+  padding: 18px 46px;
+  font-size: 18px;
+}
+
+footer {
+  margin: 80px 0 100px;
+}
+
+footer a {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+.fa-brands {
+  font-size: 18px;
+  background-color: var(--primary-background-color);
+  color: var(--primary-button-color);
+  border-radius: 50%;
+  padding: 16px;
+  margin: 4px 12px;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    margin: 80px 0 0;
+    font-size: 48px;
+  }
+
+  .work-inquiry p {
+    font-size: 12px;
+  }
+
+  .work-inquiry a {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}

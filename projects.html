@@ -24,7 +24,7 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles/about.css" />
+    <link rel="stylesheet" href="/styles/projects.css" />
     <title>SheCodes Project Portfolio</title>
   </head>
   <body>
@@ -50,12 +50,15 @@
               <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/projects.html">Projects</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/projects.html"
+                >Projects</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >About me</a
-              >
+              <a class="nav-link" href="/about.html">About me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contacts</a>
@@ -64,21 +67,28 @@
         </div>
       </div>
     </nav>
-    <div class="container about-container">
+    <h1 class="text-center mb-5">Take a look at what I've been working on!</h1>
+    <div class="container">
       <div class="row">
-        <div class="col-md-6 about-description my-4">
-          <h1>Hi I am Patricia Pereira</h1>
-          <h6 class="mt-4">Frontend Developer, based in Portugal.</h6>
-          <p class="mt-4">
-            For anyone who wants to start learning code, this workshop is very
-            interesting. You will be challenged with different exercises, and
-            everything is well explained, homework and deadlines are good for
-            keep focus
-          </p>
-          <a href="#" class="btn btn-primary mt-4">View my projects!</a>
+        <div class="col-md-6 text-center project-content">
+          <img src="/images/yogurt.png" class="img-fluid mb-3" />
+          <h4>Yogurt Project</h4>
+          <p class="mb-4">Made with HTML and CSS</p>
         </div>
-        <div class="col-md-6">
-          <img src="/images/patricia.png" class="img-fluid" />
+        <div class="col-md-6 text-center project-content">
+          <img src="/images/weather.png" class="img-fluid mb-3" />
+          <h4>Weather Project</h4>
+          <p class="mb-4">Made with HTML, CSS and React</p>
+        </div>
+        <div class="col-md-6 text-center project-content">
+          <img src="/images/dictionary.png" class="img-fluid mb-3" />
+          <h4>Dictionary Project</h4>
+          <p class="mb-4">Made with HTML, CSS and React</p>
+        </div>
+        <div class="col-md-6 text-center project-content">
+          <img src="/images/translation.png" class="img-fluid mb-3" />
+          <h4>Translation Project</h4>
+          <p class="mb-4">Made with HTML, CSS and React</p>
         </div>
       </div>
     </div>
