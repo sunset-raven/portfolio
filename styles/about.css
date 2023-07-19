@@ -12,10 +12,6 @@ body {
   font-family: var(--default-font-family);
 }
 
-.navbar {
-  /* background-color: var(--primary-background-color); */
-}
-
 h1,
 h2,
 h3,
@@ -26,58 +22,37 @@ h6 {
   font-weight: bold;
 }
 
-.hero {
-  background-color: var(--primary-background-color);
-  text-align: center;
-  padding: 270px 20px;
+.about-container {
+  margin: 120px auto;
 }
 
-.hero p {
-  font-weight: bold;
-  font-size: 36px;
-  color: var(--primary-paragraph-color);
+.about-description {
+  padding: 20px 40px;
 }
 
-.hero h1 {
-  font-size: 96px;
-  font-weight: bold;
+.about-description h1 {
+  font-size: 64px;
 }
 
-.hero h2 {
-  font-size: 24px;
-  color: var(--primary-paragraph-color);
+.about-description h6 {
+  line-height: 2;
   font-family: var(--default-font-family);
-  font-weight: normal;
+  font-weight: bold;
+  color: var(--primary-paragraph-color);
 }
 
-.hero a {
+.about-description p {
+  line-height: 2;
+  color: var(--primary-paragraph-color);
+  opacity: 0.7;
+  padding-right: 88px;
+}
+
+.about-description a {
   border-radius: 4px;
   background-color: var(--primary-button-color);
   padding: 18px 46px;
   font-size: 18px;
-}
-
-.project-description h2 {
-  font-size: 64px;
-  font-weight: bold;
-}
-
-.project-description p {
-  font-size: 16px;
-  opacity: 0.7;
-  color: var(--primary-paragraph-color);
-}
-
-.project-description a {
-  border-color: var(--secondary-button-color);
-  padding: 18px 25px;
-  color: var(--secondary-button-color);
-  margin-bottom: 20px;
-}
-
-.project-description a:hover {
-  border-color: var(--secondary-button-color);
-  background-color: var(--secondary-button-color);
 }
 
 .work-inquiry {
@@ -119,45 +94,26 @@ footer a {
 }
 
 @media (max-width: 992px) {
-  .hero {
-    padding: 135px 20px;
+  .about-container {
+    margin-top: 80px;
+    text-align: center;
   }
 
-  .hero p {
-    font-size: 24px;
+  .about-description {
+    padding: 20px;
   }
 
-  .hero h1 {
+  .about-description h1 {
     font-size: 48px;
   }
 
-  .hero h2 {
-    font-size: 16px;
-    line-height: 2;
+  .about-description p {
+    padding: 0;
+    line-height: 1.5;
   }
 
-  .hero a {
-    padding: 10px 24px;
-  }
-
-  .project-description {
-    text-align: center;
-    margin: 48px;
-    border-radius: 4px;
-    background-color: var(--primary-background-color);
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  }
-
-  .project-description h2 {
-    font-size: 40px;
-  }
-
-  .project-description p {
-    line-height: 2;
-  }
-
-  .project-description a {
-    padding: 10px 24px;
+  .about-description a {
+    padding: 12px 24px;
   }
 
   .work-inquiry p {
