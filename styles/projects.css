@@ -22,6 +22,10 @@ h6 {
   font-weight: bold;
 }
 
+.active {
+  color: var(--primary-button-color) !important;
+}
+
 h1 {
   margin: 120px 0 0;
   font-size: 64px;
