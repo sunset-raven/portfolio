@@ -95,6 +95,14 @@ footer {
     font-size: 48px;
   }
 
+  footer {
+    margin: 40px 0 80px;
+  }
+
+  .work-inquiry {
+    margin: 40px 0 60px;
+  }
+
   .work-inquiry p {
     font-size: 12px;
   }
