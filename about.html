@@ -25,13 +25,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/about.css" />
-    <title>SheCodes Project Portfolio</title>
+    <meta name="description" content="Patricia Pereira is a front-end engineer based in Portugal and this is her homepage, where she shows her projects and how to contact her for work. This is a SheCodes Responsive Project.">
+    <title>About Patricia - SheCodes Project Portfolio</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/"
-          ><img src="/images/logo.png" alt=""
+        <a class="navbar-brand" href="/" title="Patricia's Homepage"
+          ><img src="/images/logo.png" alt="Patricia's Logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -47,18 +48,18 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
+              <a class="nav-link" href="/" title="Patricia's Homepage">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/projects.html">Projects</a>
+              <a class="nav-link" href="/projects.html" title="Patricia's Projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a class="nav-link active" aria-current="page" href="/about.html" title="About Patricia"
                 >About me</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contacts</a>
+              <a class="nav-link" href="/contact.html" title="Patricia's Contacts">Contacts</a>
             </li>
           </ul>
         </div>
@@ -75,41 +76,70 @@
             everything is well explained, homework and deadlines are good for
             keep focus
           </p>
-          <a href="#" class="btn btn-primary mt-4">View my projects!</a>
+          <a href="/projects.html" target="_blank" class="btn btn-primary mt-4" title="Patricia's projects">View my projects!</a>
         </div>
         <div class="col-md-6">
           <img src="/images/patricia.png" class="img-fluid" />
         </div>
       </div>
     </div>
-    <footer class="text-center">
+       <footer class="text-center">
       <div class="container d-none d-sm-block">
-        <div class="row work-inquiry p-5">
+        <div
+          class="row work-inquiry d-flex justify-content-center align-items-center p-5"
+        >
           <div class="col-sm-6">
             <h3>Work Inquiry</h3>
             <p>Let's work together and I'll help you with my best!</p>
           </div>
-          <div
-            class="col-sm-6 d-flex justify-content-center align-items-center"
-          >
-            <a href="#" class="btn btn-primary">Let's talk here!</a>
+          <div class="col-sm-6">
+            <a
+              href="/contact.html"
+              class="btn btn-primary"
+              title="Patricia's contacts"
+              >Let's talk here!</a
+            >
           </div>
         </div>
       </div>
-      <a href="mailto:youremail@gmail.com" class="email-link"
+      <a
+        href="mailto:youremail@gmail.com"
+        class="email-link"
+        title="Patricia's e-mail"
         >youremail@gmail.com</a
       >
       <div class="d-flex justify-content-center mt-5">
-        <a href="http://www.linkedin.com" target="_blank"
+        <a
+          href="http://www.linkedin.com"
+          target="_blank"
+          title="Linkedin profile"
           ><i class="fa-brands fa-linkedin"></i
         ></a>
-        <a href="http://www.github.com" target="_blank"
+        <a href="http://www.github.com" target="_blank" title="GitHub profile"
           ><i class="fa-brands fa-github"></i
         ></a>
-        <a href="http://www.instagram.com" target="_blank"
+        <a
+          href="http://www.instagram.com"
+          target="_blank"
+          title="Instagram profile"
           ><i class="fa-brands fa-instagram"></i
         ></a>
       </div>
+      <p class="text-center mt-2">
+        This was coded by
+        <a
+          href="https://www.linkedin.com/in/andrea-vetter/"
+          target="_blank"
+          title="Andrea Vetter's Linkedin page"
+          >Andréa Vetter</a
+        >. It is
+        <a
+          href="https://github.com/sunset-raven/portfolio"
+          target="_blank"
+          title="Project Portfolio"
+          >open-source</a
+        >!
+      </p>
     </footer>
   </body>
 </html>

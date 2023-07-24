@@ -25,13 +25,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/index.css" />
-    <title>SheCodes Project Portfolio</title>
+    <meta
+      name="description"
+      content="Patricia Pereira is a front-end engineer based in Portugal and this is her homepage, where she shows her projects and how to contact her for work. This is a SheCodes Responsive Project."
+    />
+    <title>Patricia Pereira's Homepage - SheCodes Project Portfolio</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/"
-          ><img src="/images/logo.png" alt=""
+        <a class="navbar-brand" href="/" title="Patricia's Homepage"
+          ><img src="/images/logo.png" alt="Patricia's Logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -47,32 +51,57 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                title="Patricia's Homepage"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/projects.html">Projects</a>
+              <a
+                class="nav-link"
+                href="/projects.html"
+                title="Patricia's Projects"
+                >Projects</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About me</a>
+              <a class="nav-link" href="/about.html" title=" About Patricia"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contacts</a>
+              <a
+                class="nav-link"
+                href="/contact.html"
+                title="Patricia's Contacts"
+                >Contacts</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
     <div class="hero">
       <p>Hi I am</p>
       <h1 class="mb-2">Patricia Pereira</h1>
       <h2 class="mb-5">Frontend Developer, based in Portugal.</h2>
-      <a href="#" class="btn btn-primary">Get Started</a>
+      <a href="/index.html#project-preview" class="btn btn-primary" title="Projects preview">Get Started</a>
     </div>
+
     <p class="my-5 text-center">Featured Projects - showing my best ones!</p>
-    <div class="container">
+
+    <div class="container" id="project-preview">
       <div class="row mb-5">
         <div class="col me-5 d-none d-lg-block">
-          <img src="/images/yogurt.png" alt="" class="img-fluid" />
+          <img
+            src="/images/yogurt.png"
+            alt="Yogurt project preview"
+            class="img-fluid"
+          />
         </div>
         <div class="col project-description">
           <h2 class="my-5">Yogurt Project</h2>
@@ -82,9 +111,15 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </p>
-          <a href="#" class="btn btn-outline-primary">View project detail</a>
+          <a
+            href="/projects.html"
+            class="btn btn-outline-primary"
+            title="Patricia's projects"
+            >View project detail</a
+          >
         </div>
       </div>
+
       <div class="row mb-5">
         <div class="col project-description">
           <h2 class="my-5">Weather Project</h2>
@@ -94,16 +129,29 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </p>
-          <a href="#" class="btn btn-outline-primary">View project detail</a>
+          <a
+            href="/projects.html"
+            class="btn btn-outline-primary"
+            title="Patricia's projects"
+            >View project detail</a
+          >
         </div>
         <div class="col me-5 d-none d-lg-block">
-          <img src="/images/weather.png" alt="" class="img-fluid" />
+          <img
+            src="/images/weather.png"
+            alt="Weather project preview"
+            class="img-fluid"
+          />
         </div>
       </div>
 
       <div class="row mb-5">
         <div class="col me-5 d-none d-lg-block">
-          <img src="/images/dictionary.png" alt="" class="img-fluid" />
+          <img
+            src="/images/dictionary.png"
+            alt="Dictionary project preview"
+            class="img-fluid"
+          />
         </div>
         <div class="col project-description">
           <h2 class="my-5">Dictionary Project</h2>
@@ -113,38 +161,73 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </p>
-          <a href="#" class="btn btn-outline-primary">View project detail</a>
+          <a
+            href="/projects.html"
+            class="btn btn-outline-primary"
+            title="Patricia's projects"
+            >View project detail</a
+          >
         </div>
       </div>
     </div>
+
     <footer class="text-center">
       <div class="container d-none d-sm-block">
-        <div class="row work-inquiry d-flex justify-content-center align-items-center p-5">
+        <div
+          class="row work-inquiry d-flex justify-content-center align-items-center p-5"
+        >
           <div class="col-sm-6">
             <h3>Work Inquiry</h3>
             <p>Let's work together and I'll help you with my best!</p>
           </div>
-          <div
-            class="col-sm-6 "
-          >
-            <a href="#" class="btn btn-primary">Let's talk here!</a>
+          <div class="col-sm-6">
+            <a
+              href="/contact.html"
+              class="btn btn-primary"
+              title="Patricia's contacts"
+              >Let's talk here!</a
+            >
           </div>
         </div>
       </div>
-      <a href="mailto:youremail@gmail.com" class="email-link"
+      <a
+        href="mailto:youremail@gmail.com"
+        class="email-link"
+        title="Patricia's e-mail"
         >youremail@gmail.com</a
       >
       <div class="d-flex justify-content-center mt-5">
-        <a href="http://www.linkedin.com" target="_blank"
+        <a
+          href="http://www.linkedin.com"
+          target="_blank"
+          title="Linkedin profile"
           ><i class="fa-brands fa-linkedin"></i
         ></a>
-        <a href="http://www.github.com" target="_blank"
+        <a href="http://www.github.com" target="_blank" title="GitHub profile"
           ><i class="fa-brands fa-github"></i
         ></a>
-        <a href="http://www.instagram.com" target="_blank"
+        <a
+          href="http://www.instagram.com"
+          target="_blank"
+          title="Instagram profile"
           ><i class="fa-brands fa-instagram"></i
         ></a>
       </div>
+      <p class="text-center mt-2">
+        This was coded by
+        <a
+          href="https://www.linkedin.com/in/andrea-vetter/"
+          target="_blank"
+          title="Andrea Vetter's Linkedin page"
+          >Andréa Vetter</a
+        >. It is
+        <a
+          href="https://github.com/sunset-raven/portfolio"
+          target="_blank"
+          title="Project Portfolio"
+          >open-source</a
+        >!
+      </p>
     </footer>
   </body>
 </html>
