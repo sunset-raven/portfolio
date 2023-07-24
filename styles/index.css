@@ -83,7 +83,7 @@ h6 {
 .work-inquiry {
   background-color: var(--primary-background-color);
   border-radius: 20px;
-  margin: 20px;
+  margin: 80px 0 100px;
 }
 
 .work-inquiry p {
@@ -103,10 +103,15 @@ footer {
   margin: 80px 0 100px;
 }
 
-footer a {
+.email-link {
   font-size: 24px;
   text-decoration: none;
   color: black;
+}
+
+.email-link:hover {
+  color: var(--primary-button-color);
+  text-decoration: underline;
 }
 
 .fa-brands {
@@ -116,6 +121,12 @@ footer a {
   border-radius: 50%;
   padding: 16px;
   margin: 4px 12px;
+  transition: all 100ms ease-in-out;
+}
+
+.fa-brands:hover {
+  color: white;
+  background-color: var(--primary-button-color);
 }
 
 @media (max-width: 992px) {
